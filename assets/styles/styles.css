@@ -326,6 +326,17 @@ text-align: center;
 
 /* end of team section */
 
+/* contact section */
+
+.contact-section {
+	background-color: #252B42;
+}
+
+.form-section {
+	padding:0 43px;
+}
+
+/* end of contact section */
 
 }
 
