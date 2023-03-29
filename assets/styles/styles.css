@@ -315,7 +315,7 @@ body {
 /* contact section */
 
 	.contact-section {
-		background-image: url(../images/cover.png);
+				background-image: url(../images/cover.png);
 		background-position: center;
 		background-size: cover;
   }
