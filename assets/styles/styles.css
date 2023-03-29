@@ -54,7 +54,7 @@ body {
     font-size: 20px;
     font-weight: 100;
     line-height: 45px;
-    letter-spacing: 0.20000000298023224px;
+    letter-spacing: 0.2000;
     text-align: center;
 
 
@@ -73,7 +73,7 @@ body {
     font-size: 30px;
     font-weight: 400;
     line-height: 45px;
-    letter-spacing: 0.20000000298023224px;
+    letter-spacing: 0.2000px;
     text-align: center;
   }
 
@@ -111,7 +111,7 @@ body {
     font-size: 40px;
     font-weight: 700;
     line-height: 57px;
-    letter-spacing: 0.20000000298023224px;
+    letter-spacing: 0.2000px;
     text-align: center;
   }
 
@@ -121,7 +121,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: 0.20000000298023224px;
+    letter-spacing: 0.2000px;
     text-align: center;
   }
 
@@ -157,7 +157,7 @@ body {
 /* features section */
 
   .feature-section {
-    background-color: #252B42;
+    background-color: #252b42;
   }
 
 .feature-cards {
@@ -201,7 +201,7 @@ body {
 
   .provition-section {
     padding: 43px;
-    background-color: #252B42;
+    background-color: #252b42;
   }
 
   .provition-section img {
@@ -211,7 +211,7 @@ body {
 /* testimonial */
 
   .testimonial {
-    background-color: #252B42;
+    background-color: #252b42;
   }
 
   .test-cards {
@@ -229,7 +229,7 @@ body {
   }
 
   .tcard i {
-    color: #F3CD03;
+    color: #f3ff03;
     margin-bottom: 15px;
   }
 
@@ -245,7 +245,7 @@ body {
 
   .name a {
     text-decoration: none;
-    color: #FFA62B;
+    color: #ffa62b;
     margin: 0 0 5px;
   }
 
@@ -283,7 +283,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0.10000000149011612px;
+    letter-spacing: 0.1000px;
     text-align: center;
   }
 
@@ -292,18 +292,18 @@ body {
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0.20000000298023224px;
+    letter-spacing: 0.2000px;
     text-align: center;
   }
 
   .tcards i {
     margin-top: 5px;
-    color: #00A0c1;
-}
+    color: #00a0c1;
+  }
 
   .tcards img {
     width: 100%;
-}
+  }
 
   .tc-content {
     text-align: center;
@@ -364,7 +364,7 @@ body {
     color: #fff;
     font-weight: 600;
     border-radius: 5px;
-    background-color: #FFA62a;
+    background-color: #ffa62a;
     padding: 15px 40px 15px 40px;
   }
 
@@ -392,10 +392,10 @@ body {
 /* footer */
 
   footer {
-    background-color: #252B42;
+    background-color: #252b42;
     color: #fff;
     padding: 43px 43px 0;
-    font-family: 'Montserrat';
+    font-family: Montserrat, sans-serif;
   }
 
   .footer-head {
@@ -431,7 +431,7 @@ body {
 
 .ql ul {
     list-style: none;
-}
+  }
 
   .ql ul li {
     padding: 5px;
