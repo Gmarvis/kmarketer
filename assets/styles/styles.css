@@ -178,7 +178,6 @@ align-self: center;
 .fcard {
 background-color: #fff;
 height: 193px;
-width: 328px;
 left: 0px;
 top: 0px;
 border-radius: 0px;
@@ -329,12 +328,82 @@ text-align: center;
 /* contact section */
 
 .contact-section {
-	background-color: #252B42;
+background-image: url(../images/cover.png);
+background-position: center;
+background-size: cover;
 }
 
 .form-section {
-	padding:0 43px;
+	padding: 43px;
 }
+
+form input {
+	/* background-color: red; */
+	width: 100%;
+	height: 50px;
+	left: 0px;
+	top: 0px;
+	border-radius: 5px;
+	border: none;
+	margin: 10px 0;
+}
+
+form select {
+	width: 100%;
+	height: 50px;
+	color: #413e3e;
+	left: 0px;
+	top: 0px;
+	border-radius: 5px;
+	border: none;
+	margin: 10px 0;
+}
+
+form textarea {
+	/* background-color: red; */
+	width: 100%;
+	border: none;
+}
+
+.btn3 {
+margin: 30px 0 0;
+height: 58px;
+width: 286px;
+left: 0px;
+top: 678px;
+border: none;
+color: #fff;
+font-weight: 600;
+border-radius: 5px;
+background-color: #FFA62B;
+padding: 15px 40px 15px 40px;
+}
+
+/* quick contact */
+
+.quick-content {
+	margin: 34px 34px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.quick-content h3 {
+	font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.1px;
+margin-bottom: 5px;
+}
+
+/* end of quick contact */
+
+
+
 
 /* end of contact section */
 
