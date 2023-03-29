@@ -16,7 +16,7 @@ body {
 
 /* mobile styling */
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:600px) {
 /* hero section */
 	nav {
 		/* width: 100%; */
