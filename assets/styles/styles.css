@@ -158,12 +158,12 @@ body {
 
 	.feature-section {
 				background-color: #252B42;
-}
+  }
 
 .feature-cards {
 		padding: 43px;
 		align-self: center;
-}
+  }
 
 	.fcard {
 		background-color: #fff;
@@ -177,11 +177,11 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-self: center;
-}
+  }
 
 	.hm {
 		display: flex;
-}
+  }
 
 	.hm h5 {
 		align-self: center;
@@ -191,47 +191,47 @@ body {
 		font-weight: 700;
 		line-height: 24px;
 		text-align: left;
-}
+  }
 
 	.hm img {
 		width: 50px;
-}
+  }
 
 /* end of features section */
 
 	.provition-section {
 		padding: 43px;
 		background-color: #252B42;
-}
+  }
 
 	.provition-section img {
 		width: 100%;
-}
+  }
 
 /* testimonial */
 
 	.testimonial {
 		background-color: #252B42;
-}
+  }
 
 	.test-cards {
 		padding:0 43px;
 		display: flex;
 		flex-direction: column;
 		align-self: center;
-}
+  }
 
 	.tcard {
 		align-items: center;
 		background-color: #fff;
 		margin-bottom: 30px;
 		padding: 10px;
-}
+  }
 
 	.tcard i {
 		color: #F3CD03;
 		margin-bottom: 15px;
-}
+  }
 
 	.name {
 		margin-left: 10px;
@@ -241,18 +241,18 @@ body {
 		font-family: Montserrat, sans-serif;
 		font-size: 16px;
 		font-weight: 600;
-}
+  }
 
 	.name a {
 		text-decoration: none;
 		color: #FFA62B;
 		margin: 0 0 5px;
-}
+  }
 
 	.profile {
 		margin-top: 15px;
 		display: flex;
-}
+  }
 
 /* end of testimonial */
 
@@ -260,14 +260,14 @@ body {
 
 	.team-section {
 		background-color: #252B42;
-}
+  }
 
 	.team-cards {
 		padding: 0 43px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-}
+  }
 
 	.tcards {
 		background-color: #fff;
@@ -276,7 +276,7 @@ body {
 		width: 100%;
 		height: auto;
 		margin-bottom: 43px;
-}
+  }
 
 	.tcards h5 {
 		font-family: Montserrat, sans-serif;
@@ -285,7 +285,7 @@ body {
 		line-height: 24px;
 		letter-spacing: 0.10000000149011612px;
 		text-align: center;
-}
+  }
 
 	.tcards h6 {
 		font-family: Montserrat, sans-serif;
@@ -294,11 +294,11 @@ body {
 		line-height: 24px;
 		letter-spacing: 0.20000000298023224px;
 		text-align: center;
-}
+  }
 
 	.tcards i {
 		margin-top: 5px;
-		color: #00A0C1;
+		color: #00A0c1;
 }
 
 	.tcards img {
@@ -308,7 +308,7 @@ body {
 	.tc-content {
 		text-align: center;
 		margin: 30px;
-}
+  }
 
 /* end of team section */
 
@@ -318,11 +318,11 @@ body {
 		background-image: url(../images/cover.png);
 		background-position: center;
 		background-size: cover;
-}
+  }
 
 	.form-section {
 		padding: 43px;
-}
+  }
 
 	form input {
 		width: 100%;
@@ -332,7 +332,7 @@ body {
 		border-radius: 5px;
 		border: none;
 		margin: 10px 0;
-}
+  }
 
 	form select {
 		width: 100%;
@@ -343,14 +343,14 @@ body {
 		border-radius: 5px;
 		border: none;
 		margin: 10px 0;
-}
+  }
 
-form textarea {
+  form textarea {
 		width: 100%;
 		border: none;
 		border-radius: 5px;
 		padding: 10px;
-}
+  }
 
 	.btn3 {
 		display: flex;
@@ -364,9 +364,9 @@ form textarea {
 		color: #fff;
 		font-weight: 600;
 		border-radius: 5px;
-		background-color: #FFA62B;
+		background-color: #FFA62a;
 		padding: 15px 40px 15px 40px;
-}
+  }
 
 /* quick contact */
 
@@ -377,7 +377,7 @@ form textarea {
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-}
+  }
 
 	.quick-content h3 {
 		font-family: 'Montserrat';
@@ -387,7 +387,7 @@ form textarea {
 		line-height: 32px;
 		letter-spacing: 0.1px;
 		margin-bottom: 5px;
-}
+  }
 
 /* footer */
 
@@ -396,13 +396,13 @@ form textarea {
 		color: #fff;
 		padding: 43px 43px 0;
 		font-family: 'Montserrat';
-}
+  }
 
 	.footer-head {
 		display: flex;
 		flex-direction: column;
 		padding-bottom: 20px;
-}
+  }
 
 	.footer-head h3 {
 		font-family: Montserrat;
@@ -412,22 +412,22 @@ form textarea {
 		letter-spacing: 0.10000000149011612px;
 		text-align: left;
 		padding: 0 0 30px;
-}
+  }
 
 	.quick-links {
 		display: flex;
 		flex-direction: column;
-}
+  }
 
 	.ql {
 		padding: 15px;
-}
+  }
 
 	.ql h5 {
 		font-size: 16px;
 		font-weight: 700;
 		padding-bottom: 5px;
-}
+  }
 
 .ql ul {
 		list-style: none;
@@ -436,7 +436,7 @@ form textarea {
 	.ql ul li {
 		padding: 5px;
 		margin: 0;
-}
+  }
 
 	.ql ul li a {
 		color: #fff;
@@ -450,39 +450,39 @@ form textarea {
 		width: 100%;
 		height: 58px;
 		border-radius: 5px;
-}
+  }
 
 	.news-letter button {
 		background-color: #FFA62B;
 		width: 100%;
 		border: none;
 		color: #fff;
-}
+ }
 
 	.news-letter input {
 		border: none;
 		padding: 10px;
 		width: 100%;
-}
+  }
 
 	.ql p {
 		margin-top: 3px;
 		font-size: 12px;
 		font-weight: 400;
-}
+  }
 
 	.main-footer {
-		background-color: #16697A;
+		background-color: #16697a;
 		text-align: center;
 		padding: 34px;
-		font-family: 'Montserrat';
+		font-family: Montserrat, sans-serif;
 		font-size: 14px;
 		color: #fff;
-}
+  }
 
 	.fa-facebook {
 		color: #335BF5;
-}
+  }
 
 	.fa-instagram {
 		color: #E51F5A;
@@ -494,8 +494,7 @@ form textarea {
 
 	.fa-youtube {
 		color: red;
-	}
-
+  }
 }
 
 /* end of mobile styling */
