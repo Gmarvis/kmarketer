@@ -11,15 +11,14 @@ body {
 
 /* mobile styling */
 
-@media screen and (max-width:600px) {
-
+@media screen and (max-width: 600px) {
 /* hero section */
 
   nav {
     padding: 36px;
     display: flex;
     justify-content: space-between;
-    background-color: #252B42;
+    background-color: #252b42;
     color: #fff;
   }
 
@@ -28,7 +27,7 @@ body {
   }
 
   nav h3 {
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -50,7 +49,7 @@ body {
 
   nav ul li a {
     color: #fff;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 100;
     line-height: 45px;
@@ -61,7 +60,7 @@ body {
   }
 
   .nav-links {
-    background-color: #252B42;
+    background-color: #252b42;
     align-items: center;
     text-align: center;
     padding: 38px 0;
@@ -146,7 +145,7 @@ body {
   }
 
   .btn button:first-child {
-    background-color: #FFA62B;
+    background-color: #ffa62b;
   }
   .btn button:last-child {
     border: 1px solid #fff;
@@ -254,10 +253,6 @@ body {
     display: flex;
   }
 
-/* end of testimonial */
-
-/* team section */
-
   .team-section {
     background-color: #252B42;
   }
@@ -310,10 +305,6 @@ body {
     margin: 30px;
   }
 
-/* end of team section */
-
-/* contact section */
-
   .contact-section {
     background-image: url(../images/cover.png);
     background-position: center;
@@ -338,8 +329,8 @@ body {
     width: 100%;
     height: 50px;
     color: #413e3e;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 5px;
     border: none;
     margin: 10px 0;
@@ -368,8 +359,6 @@ body {
     padding: 15px 40px 15px 40px;
   }
 
-/* quick contact */
-
 .quick-content {
     margin: 34px 34px;
     display: flex;
@@ -380,7 +369,7 @@ body {
   }
 
   .quick-content h3 {
-    font-family: 'Montserrat';
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -389,13 +378,11 @@ body {
     margin-bottom: 5px;
   }
 
-/* footer */
-
   footer {
     background-color: #252b42;
     color: #fff;
     padding: 43px 43px 0;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
   .footer-head {
@@ -409,7 +396,6 @@ body {
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    letter-spacing: 0.1000px;
     text-align: left;
     padding: 0 0 30px;
   }
@@ -429,7 +415,7 @@ body {
     padding-bottom: 5px;
   }
 
-.ql ul {
+  .ql ul {
     list-style: none;
   }
 
@@ -475,7 +461,7 @@ body {
     background-color: #16697a;
     text-align: center;
     padding: 34px;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     color: #fff;
   }
@@ -497,4 +483,3 @@ body {
   }
 }
 
-/* end of mobile styling */
