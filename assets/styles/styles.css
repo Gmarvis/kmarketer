@@ -22,7 +22,7 @@ nav span {
 }
 
 nav h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -35,7 +35,7 @@ nav ul {
   justify-content: space-between;
 }
 
-  nav ul li {
+nav ul li {
   margin-left: 33px;
   color: #fff;
   list-style: none;
@@ -47,7 +47,7 @@ nav ul li a {
   font-size: 20px;
   font-weight: 100;
   line-height: 45px;
-  letter-spacing: 0.2000;
+  letter-spacing: 0.2;
   text-align: center;
 }
 
@@ -64,11 +64,11 @@ nav ul li a {
   font-size: 30px;
   font-weight: 400;
   line-height: 45px;
-  letter-spacing: 0.2000px;
+  letter-spacing: 0.2;
   text-align: center;
 }
 
-  .nav-links li a {
+.nav-links li a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -77,7 +77,7 @@ nav ul li a {
 
 .hero-section {
   height: fit-content;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.24), rgba(5, 5, 5, 0.74)), url(../images/cover\ \(2\).jpg);
+  background-image: linear-gradient(180deg, #0000003d, #050505bd), url(../images/cover\ \(2\).jpg);
   background-position: center;
   background-size: cover;
 }
@@ -265,7 +265,7 @@ nav ul li a {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0.1000px;
+  letter-spacing: 0.1;
   text-align: center;
 }
 
@@ -274,7 +274,7 @@ nav ul li a {
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
-  letter-spacing: 0.2000px;
+  letter-spacing: 0.2;
   text-align: center;
 }
 
@@ -293,7 +293,7 @@ nav ul li a {
 }
 
 .contact-section {
-  background-image: linear-gradient(#252b42, rgba(3, 3, 20, 0.473)), url(../images/cover.png);
+  background-image: linear-gradient(#252b42, #03031479), url(../images/cover.png);
   background-position: center;
   background-size: cover;
 }
@@ -304,14 +304,11 @@ nav ul li a {
   font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 600;
-
 }
 
 form input {
   width: 100%;
   height: 50px;
-  left: 0px;
-  top: 0px;
   border-radius: 5px;
   border: none;
   margin: 10px 0;
@@ -328,8 +325,8 @@ form select {
   margin: 10px 0;
 }
 
-form textarea {
-  width: 97%;
+textarea {
+  width: 96%;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -348,11 +345,11 @@ form textarea {
   font-weight: 600;
   border-radius: 5px;
   background-color: #ffa62a;
-  padding: 15px 40px 15px 40px;
+  padding: 15px 40px;
 }
 
 .quick-content {
-  margin: 34px 34px;
+  margin: 34px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -361,7 +358,7 @@ form textarea {
 }
 
 .quick-content h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -374,7 +371,7 @@ footer {
   background-color: #252b42;
   color: #fff;
   padding: 43px 43px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .footer-head {
@@ -548,7 +545,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: center;
   }
 
@@ -558,11 +555,11 @@ footer {
     justify-content: center;
     padding: 4%;
   }
-  
+
   .team-section {
     padding: 0 8%;
   }
-  
+
   .team-cards {
     display: flex;
     flex-direction: row;
@@ -585,7 +582,6 @@ footer {
   .flex-form {
     display: flex;
     flex-direction: row;
-    gap: 0px;
     margin: 0;
     width: 100%;
   }
@@ -633,15 +629,12 @@ footer {
   .quick-links {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     width: 100%;
   }
 
   .ql {
     width: 200px;
-  }
-
-  .main-header {
   }
 
   .main-footer h6 {
