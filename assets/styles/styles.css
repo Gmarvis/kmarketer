@@ -573,13 +573,9 @@ footer {
 
   form {
     margin: 40px 0;
-  }
-
-  .flex-form {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
   }
 
   .flex-form input {
