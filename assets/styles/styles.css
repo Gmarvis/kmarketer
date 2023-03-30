@@ -589,7 +589,7 @@ footer {
   }
 
   textarea {
-    width: 100%;
+    width: 96%;
   }
 
   .flex-form select {
@@ -610,7 +610,11 @@ footer {
   }
 
   .btn3 {
-    margin: 0;
+    width: 50%;
+  }
+
+  .b5 {
+    width: 200px;
   }
 
   footer {
@@ -628,6 +632,7 @@ footer {
     display: flex;
     flex-flow: wrap;
     width: 100%;
+    padding-bottom: 34px;
   }
 
   .ql {
