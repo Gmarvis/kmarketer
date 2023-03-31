@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #252b42;
+}
+
 .desktop-nav {
   display: none;
 }
@@ -162,18 +166,20 @@ nav ul li a {
 }
 
 .feature-cards {
-  padding: 0 60px;
+  padding:0 8%;
   align-self: center;
 }
 
 .fcard {
   background-color: #fff;
   height: 193px;
-  border-radius: 0;
+  width: 95%;
+  /* border-radius: 0; */
   margin: 0 0 25px;
-  padding-left: 4%;
+  padding: 10px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-self: center;
 }
@@ -190,7 +196,7 @@ nav ul li a {
   align-self: center;
   padding-left: 10px;
   font-family: Montserrat, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
@@ -216,7 +222,7 @@ nav ul li a {
 }
 
 .test-cards {
-  padding: 0 43px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -263,7 +269,7 @@ nav ul li a {
 .tcards {
   background-color: #fff;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-bottom: 43px;
 }
@@ -524,34 +530,37 @@ footer {
   }
 
   .feature-section {
-    padding: 0 8%;
+    display: block;
+    justify-content: center;
   }
 
   .feature-cards {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* gap: 30px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
 
   .fcard {
-    padding: 10;
-    width: 90%;
+    width: 30%;
+  }
+
+  .fcard h5 {
+    font-size: 100%;
   }
 
   .fcard p {
-    margin-top: 10px;
+  margin-top: 10px;
   font-family: Montserrat, sans-serif;
   color: #252b42;
   font-size: 18px;
   font-weight: 500;
-  line-height: 20px;
   text-align: left;
-
-
   }
 
   .provition-section {
-    padding: 0 18%;
+    padding: 0 8%;
   }
 
   .test-cards {
@@ -562,7 +571,7 @@ footer {
   }
 
   .tcard {
-    width: 356px;
+    width: 28%;
     align-items: center;
     justify-content: center;
     padding: 4%;
