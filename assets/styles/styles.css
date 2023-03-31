@@ -514,7 +514,7 @@ footer {
   }
 
   .btn {
-    margin: 1px;
+    margin: 5px;
     display: flex;
     flex-direction: row;
   }
