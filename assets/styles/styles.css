@@ -524,14 +524,26 @@ footer {
   }
 
   .feature-cards {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap: 30px; */
   }
 
   .fcard {
-    width: 356px;
+    padding: 10;
+    width: 90%;
+  }
+
+  .fcard p {
+    margin-top: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #252b42;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+
+
   }
 
   .provition-section {
