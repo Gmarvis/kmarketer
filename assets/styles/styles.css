@@ -544,7 +544,7 @@ footer {
 
   .feature-cards {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
