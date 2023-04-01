@@ -544,7 +544,6 @@ footer {
 
   .feature-cards {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -565,7 +564,7 @@ footer {
     font-size: 18px;
     font-weight: 500;
     text-align: left;
-    }
+  }
 
   .provition-section {
     padding: 0 8%;
