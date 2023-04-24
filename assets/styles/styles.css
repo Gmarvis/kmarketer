@@ -656,19 +656,20 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px 20px;
+    margin-top: 20px;
   }
 
   .quick-links {
     display: flex;
     flex-flow: wrap;
+    justify-content: space-between;
     width: 100%;
     padding-bottom: 34px;
   }
-
+/* 
   .ql {
-    width: 200px;
-  }
+    width: 10%;
+  } */
 
   .main-footer h6 {
     padding: 0 7%;
@@ -676,6 +677,6 @@ footer {
   }
 
   .news-letter {
-    width: 400px;
+    width: 250px;
   }
 }
