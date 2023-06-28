@@ -1,0 +1,682 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #252b42;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.main-contatiner {
+  width: 100%;
+}
+
+nav {
+  padding: 4% 8%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #252b42;
+  color: #fff;
+}
+
+nav span {
+  text-transform: uppercase;
+}
+
+nav h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: left;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin-left: 33px;
+  color: #fff;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 45px;
+  letter-spacing: 0.2;
+  text-align: center;
+}
+
+.nav-links {
+  background-color: #252b42;
+  align-items: center;
+  text-align: center;
+  padding: 38px 0;
+}
+
+.nav-links li {
+  padding: 15px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.2;
+  text-align: center;
+}
+
+.name a {
+  text-decoration: none;
+  color: #ffa62b;
+  margin: 0 0 5px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.hero-section {
+  height: fit-content;
+  background-image: linear-gradient(180deg, #0000003d, #050505bd),
+    url("../images/cover\ \(2\).jpg");
+
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  padding: 84px 20px 0;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+
+.heading h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2;
+  text-align: center;
+}
+
+.heading p {
+  padding: 40px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.2;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 36px;
+  gap: 20px;
+  padding-bottom: 64px;
+}
+
+.btn button {
+  padding: 10px 36px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.news-letter button {
+  background-color: #ffa62b;
+  width: 100%;
+  border: none;
+  color: #fff;
+}
+
+.btn button:first-child {
+  background-color: #ffa62b;
+}
+
+.btn button:last-child {
+  border: 1px solid #fff;
+  background: none;
+}
+
+.feature-section {
+  background-color: #252b42;
+}
+
+.feature-cards {
+  padding: 0 8%;
+  align-self: center;
+}
+
+.fcard {
+  background-color: #fff;
+  height: 193px;
+  width: 95%;
+  margin: 0 0 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-self: center;
+}
+
+.hm {
+  display: flex;
+}
+
+.fcard p {
+  padding-bottom: 10px;
+}
+
+.hm h5 {
+  align-self: center;
+  padding-left: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.hm img {
+  width: 45px;
+}
+
+.provition-section {
+  background-color: #252b42;
+}
+
+.provition-section img {
+  width: 100%;
+}
+
+/* testimonial */
+
+.testimonial {
+  background-color: #252b42;
+}
+
+.test-cards {
+  padding-left: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tcard {
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 90%;
+}
+
+.tcard i {
+  color: #f3ff03;
+  margin-bottom: 15px;
+}
+
+.name {
+  margin-left: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.profile {
+  margin-top: 15px;
+  display: flex;
+}
+
+.team-section {
+  background-color: #252b42;
+}
+
+.team-cards {
+  padding: 0 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tcards {
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-bottom: 43px;
+}
+
+.tcards h5 {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1;
+  text-align: center;
+}
+
+.tcards h6 {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2;
+  text-align: center;
+}
+
+.tcards i {
+  margin-top: 5px;
+  color: #00a0c1;
+}
+
+.tcards img {
+  width: 100%;
+}
+
+.tc-content {
+  text-align: center;
+  margin: 30px;
+}
+
+.contact-section {
+  background-image: linear-gradient(#252b42, #03031479),
+    url("../images/cover.png");
+
+  background-position: center;
+  background-size: cover;
+}
+
+.form-section {
+  padding: 43px;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+}
+
+form select {
+  width: 100%;
+  height: 50px;
+  color: #413e3e;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0;
+}
+
+textarea {
+  width: 96%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 0;
+  height: 58px;
+  width: 100%;
+  top: 678px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #ffa62a;
+  padding: 15px 40px;
+}
+
+.quick-content {
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.quick-content h3 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #252b42;
+  color: #fff;
+  padding: 43px 43px 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.footer-head {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.footer-head h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  padding: 0 0 30px;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.ql {
+  padding: 15px;
+}
+
+.ql h5 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.ql ul {
+  list-style: none;
+}
+
+.ql ul li {
+  padding: 5px;
+  margin: 0;
+}
+
+.ql ul li a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.news-letter {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  height: 58px;
+  border-radius: 5px;
+}
+
+.news-letter input {
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.ql p {
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.main-footer {
+  background-color: #16697a;
+  text-align: center;
+  padding: 34px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+.fa-facebook {
+  color: #335bf5;
+}
+
+.fa-instagram {
+  color: #e51f5a;
+}
+
+.fa-twitter {
+  color: #335bf5;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+/* desktop */
+
+@media screen and (min-width: 750px) {
+  .desktop-nav {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .desktop-nav li a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  nav {
+    background-color: transparent;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .fa-bars {
+    margin-left: 300%;
+  }
+
+  .hero-section {
+    height: 100vh;
+  }
+
+  .heading {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-content {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-content h2 {
+    font-size: 5vw;
+    line-height: 1;
+  }
+
+  .hero-content p {
+    padding: 0 0 2px;
+  }
+
+  .btn {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .feature-section {
+    display: block;
+    justify-content: center;
+  }
+
+  .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .fcard {
+    width: 30%;
+  }
+
+  .fcard h5 {
+    font-size: 100%;
+  }
+
+  .fcard p {
+    margin-top: 10px;
+    font-family: Montserrat, sans-serif;
+    color: #252b42;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .provition-section {
+    padding: 0 8%;
+  }
+
+  .test-cards {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 2%;
+    margin: 0;
+  }
+
+  .tcard {
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+    margin: 0;
+  }
+
+  .team-section {
+    padding: 0 8%;
+  }
+
+  .team-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .form-section {
+    margin-right: auto;
+    width: 598px;
+  }
+
+  .contact-section {
+    padding: 8vw;
+  }
+
+  form {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+
+  .flex-form input {
+    width: 90%;
+  }
+
+  textarea {
+    width: 96%;
+  }
+
+  .flex-form select {
+    width: 100%;
+    align-self: right;
+    padding: 10px;
+  }
+
+  .quick-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8%;
+    height: 170px;
+  }
+
+  .q-text {
+    text-align: left;
+  }
+
+  .btn3 {
+    width: 50%;
+  }
+
+  .b5 {
+    margin-top: 0;
+    width: 200px;
+  }
+
+  footer {
+    padding: 0 8%;
+  }
+
+  .footer-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .quick-links {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 34px;
+  }
+
+  .main-footer h6 {
+    padding: 0 7%;
+    text-align: left;
+  }
+
+  .news-letter {
+    width: 250px;
+  }
+}
