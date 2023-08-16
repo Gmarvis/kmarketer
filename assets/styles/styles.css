@@ -59,9 +59,11 @@ nav ul li a {
   letter-spacing: 0.2;
   text-align: center;
 }
+
 .toggler {
   margin-left: 3rem;
 }
+
 .nav-links {
   background-color: #252b42;
   align-items: center;
@@ -96,7 +98,6 @@ nav ul li a {
   height: fit-content;
   background-image: linear-gradient(180deg, #000000a2, #050505d2),
     url("../images/cover\ \(2\).jpg");
-
   background-position: center;
   background-size: cover;
 }
@@ -153,9 +154,6 @@ nav ul li a {
   font-size: 20px;
   font-weight: 500;
 }
-
-
-/* <i class="fa-sharp fa-solid fa-bars"></i> */
 
 .news-letter button {
   background-color: #ffa62b;
