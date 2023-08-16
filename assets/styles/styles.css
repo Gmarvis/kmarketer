@@ -96,7 +96,8 @@ nav ul li a {
 
 .hero-section {
   height: fit-content;
-  background-image: linear-gradient(180deg, #000000a2, #050505d2),
+  background-image:
+  linear-gradient(180deg, #000000a2, #050505d2),
     url("../images/cover\ \(2\).jpg");
   background-position: center;
   background-size: cover;
@@ -316,7 +317,8 @@ nav ul li a {
 }
 
 .contact-section {
-  background-image: linear-gradient(#252b42, #03031479),
+  background-image:
+  linear-gradient(#252b42, #03031479),
     url("../images/cover.png");
   background-position: center;
   background-size: cover;
